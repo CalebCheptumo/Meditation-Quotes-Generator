@@ -25,3 +25,12 @@ const quotesArr = [
     `"No matter how fast life is moving around us, there is always a place of stillness inside."`,
 
 ]
+
+const button = document.querySelector('button')
+const pEL =  document.querySelector('p')
+
+button.addEventListener('click' , () => {
+    let random = Math.floor(Math.random() * quotesArr.length)
+    pEL.innerText = quotesArr[random]
+
+})
