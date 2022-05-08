@@ -11,3 +11,22 @@ body{
     min-height: 100vh;
     background-color: rgb(5, 148, 148);
 }
+
+.container {
+    max-width: 800px;
+    width: 90vw;
+    background-color: bisque;
+    padding: 3rem;
+    box-shadow: 0.0 .3rem .2rem rgb(213, 190, 149);
+}
+
+p{
+    color: #ff56e6;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+
+}
+
+button{
+    
+}
