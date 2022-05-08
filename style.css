@@ -50,3 +50,7 @@ button:hover {
     background-color:black ;
     color: #ff56e6;
 }
+
+button:active{
+    transform: scale(.93);
+}
