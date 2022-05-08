@@ -38,5 +38,15 @@ button{
     border-radius: 100vw;
     cursor: pointer;
     user-select: none;
+    transition: 200ms ease-in-out background-color,
+                200ms ease-in-out border-color,
+                200ms ease-in-out color
+    ;
 
+}
+
+button:hover {
+    border-color: #ff56e6;
+    background-color:black ;
+    color: #ff56e6;
 }
