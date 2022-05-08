@@ -15,8 +15,9 @@ body{
 .container {
     max-width: 800px;
     width: 90vw;
-    background-color: bisque;
+    background-color: black;
     padding: 3rem;
+    border-radius: 1rem;
     box-shadow: 0.0 .3rem .2rem rgb(213, 190, 149);
 }
 
@@ -28,5 +29,14 @@ p{
 }
 
 button{
-    
+    background-color: yellow;
+    border: 2px solid transparent;
+    padding: .5rem 2rem;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+    border-radius: 100vw;
+    cursor: pointer;
+    user-select: none;
+
 }
